@@ -1,6 +1,6 @@
-# Clavius — Brand Assets & Visual Identity
+# Deepbank & Clavius — Brand Assets & Visual Identity
 
-Repositorio central de identidad visual, recursos gráficos y narrativa institucional de **Clavius** (Holding de Tecnología e Ingeniería Aplicada).
+Repositorio central de identidad visual, recursos gráficos, logos vectoriales de alta resolución y manuales de marca para **Deepbank** y el holding **Clavius**.
 
 ---
 
@@ -8,45 +8,111 @@ Repositorio central de identidad visual, recursos gráficos y narrativa instituc
 
 ```
 brand-assets/
-├── BRANDING.md                  # Manual Maestro de Marca & Directivas para Claude / LLMs
-├── logos/
-│   ├── logo-white.svg           # Isotipo oficial en blanco puro (para fondos oscuros)
-│   ├── logo-black.svg           # Isotipo oficial en negro obsidiana (para fondos claros)
-│   ├── logo.svg                 # Vector institucional estándar
-│   └── icon.svg                 # Favicon / App icon
-└── banners/
-    ├── linkedin-banner.png      # Banner oficial para LinkedIn (1584x396 px)
-    └── linkedin-banner.svg      # Banner vectorial editable en Google Sans
+├── README.md                           # Índice general y guía de integración
+├── DEEPBANK-BRANDING.md                # Manual Maestro de Marca & Identidad de Deepbank
+├── BRANDING.md                         # Manual de Marca y Tesis de Clavius
+├── banners/
+│   └── linkedin-banner.png             # Banner oficial para LinkedIn (Clavius)
+└── logos/
+    ├── deepbank/                       # 🏦 Activos Oficiales de Deepbank
+    │   ├── deepbank-logo-dark.svg      # Isotipo para fondo oscuro (Caja blanca, glifo negro)
+    │   ├── deepbank-logo-light.svg     # Isotipo para fondo claro (Caja negra, glifo blanco)
+    │   ├── deepbank-glyph-white.svg    # Glifo aislado blanco (Transparente)
+    │   ├── deepbank-glyph-black.svg    # Glifo aislado negro (Transparente)
+    │   ├── deepbank-glyph-emerald.svg  # Glifo aislado esmeralda liquidez (Transparente)
+    │   ├── deepbank-horizontal-dark.svg# Lockup horizontal con isotipo + texto "Deepbank"
+    │   ├── deepbank-horizontal-light.svg
+    │   ├── deepbank-logo-dark.png      # PNG 2500×2500 px alta resolución
+    │   ├── deepbank-logo-light.png     # PNG 2500×2500 px alta resolución
+    │   ├── deepbank-glyph-white.png    # PNG 2500×2500 px glifo blanco
+    │   ├── deepbank-glyph-black.png    # PNG 2500×2500 px glifo negro
+    │   └── icon.svg                    # Favicon / App icon
+    ├── clavius/                        # 🪐 Activos Oficiales de Clavius
+    │   ├── logo-white.svg              # Isotipo oficial en blanco puro (fondos oscuros)
+    │   ├── logo-black.svg              # Isotipo oficial en negro obsidiana (fondos claros)
+    │   ├── logo.svg                    # Vector institucional estándar
+    │   └── icon.svg                    # Favicon / App icon
+    ├── deepbank-logo-for-dark.svg      # Enlace directo de compatibilidad
+    ├── deepbank-logo-for-light.svg     # Enlace directo de compatibilidad
+    ├── deepbank-logo-for-dark.png      # Enlace directo de compatibilidad
+    ├── deepbank-icon.svg               # Enlace directo de compatibilidad
+    ├── logo-white.svg                  # Clavius (compatibilidad de rutas raíz)
+    └── logo-black.svg                  # Clavius (compatibilidad de rutas raíz)
 ```
 
 ---
 
-## 🚀 Recursos Principales
+## 🏦 1. Deepbank — Activos de Marca
 
-### 1. Manual de Marca para Claude (`BRANDING.md`)
-* Diseñado específicamente para ser cargado en **Claude**, ChatGPT u otros LLMs como contexto de fondo.
-* Contiene la tesis de Clavius, la historia de Christopher Clavius (1582) y el cráter de la NASA (2020), la metodología *Medir · Corregir · Construir*, los perfiles de los fundadores (Fede y Matías) y las directivas editoriales para redactar artículos y contenidos sin clichés de IA.
+*Manual de Marca Completo:* [`DEEPBANK-BRANDING.md`](./DEEPBANK-BRANDING.md)
 
-### 2. Isotipo Oficial
-* **Fondos oscuros / web / presentaciones:** Usar [`logos/logo-white.svg`](./logos/logo-white.svg)
-* **Fondos blancos / documentos / PDFs:** Usar [`logos/logo-black.svg`](./logos/logo-black.svg)
-> **Nota técnica:** Si abrís un SVG blanco en un visor de imágenes con fondo blanco por defecto, se verá vacío. Para fondos claros usá siempre la versión en negro.
+### Isotipo y Glifo
 
-### 3. Banner de LinkedIn
-* **Formato oficial:** 1584 × 396 px (proporción 4:1)
-* **Estética:** Fondo negro puro (`#000000`), isotipo oficial y tipografía **Google Sans** (*Clavius*).
-* **Edición en Canva:** [Abrir y editar en Canva](https://canva.link/okzt1ixtnsvw6f5) *(ID: `DAHZnKPAeVE`)*
-* **Archivos descargables:**
-  * [`banners/linkedin-banner.png`](./banners/linkedin-banner.png) (PNG en alta definición listo para subir)
-  * [`banners/linkedin-banner.svg`](./banners/linkedin-banner.svg) (vector editable)
+| Recurso | Descripción | Formato | Raw URL |
+| :--- | :--- | :--- | :--- |
+| **Dark Mode Isotype** | Caja blanca con glifo negro (para fondos oscuros/negros) | SVG / PNG (2500x2500) | [`logos/deepbank/deepbank-logo-dark.svg`](https://raw.githubusercontent.com/deepbank/brand-assets/main/logos/deepbank/deepbank-logo-dark.svg) |
+| **Light Mode Isotype** | Caja negra con glifo blanco (para fondos claros/blancos) | SVG / PNG (2500x2500) | [`logos/deepbank/deepbank-logo-light.svg`](https://raw.githubusercontent.com/deepbank/brand-assets/main/logos/deepbank/deepbank-logo-light.svg) |
+| **Glyph White** | Glifo vectorial en blanco puro sobre fondo transparente | SVG / PNG (2500x2500) | [`logos/deepbank/deepbank-glyph-white.svg`](https://raw.githubusercontent.com/deepbank/brand-assets/main/logos/deepbank/deepbank-glyph-white.svg) |
+| **Glyph Black** | Glifo vectorial en negro obsidiana sobre fondo transparente | SVG / PNG (2500x2500) | [`logos/deepbank/deepbank-glyph-black.svg`](https://raw.githubusercontent.com/deepbank/brand-assets/main/logos/deepbank/deepbank-glyph-black.svg) |
+| **Glyph Emerald** | Glifo vectorial en verde liquidez (`#10B981`) | SVG | [`logos/deepbank/deepbank-glyph-emerald.svg`](https://raw.githubusercontent.com/deepbank/brand-assets/main/logos/deepbank/deepbank-glyph-emerald.svg) |
+| **Horizontal Dark** | Isotipo + Texto "Deepbank" en Google Sans para fondos oscuros | SVG | [`logos/deepbank/deepbank-horizontal-dark.svg`](https://raw.githubusercontent.com/deepbank/brand-assets/main/logos/deepbank/deepbank-horizontal-dark.svg) |
+| **Horizontal Light** | Isotipo + Texto "Deepbank" en Google Sans para fondos claros | SVG | [`logos/deepbank/deepbank-horizontal-light.svg`](https://raw.githubusercontent.com/deepbank/brand-assets/main/logos/deepbank/deepbank-horizontal-light.svg) |
 
 ---
 
-## 🎨 Paleta de Color Institucional
+## 🪐 2. Clavius — Activos de Marca
+
+*Manual de Marca & Tesis:* [`BRANDING.md`](./BRANDING.md)
+
+| Recurso | Descripción | Formato | Raw URL |
+| :--- | :--- | :--- | :--- |
+| **Isotipo White** | Isotipo lunar concéntrico en blanco puro | SVG | [`logos/clavius/logo-white.svg`](https://raw.githubusercontent.com/deepbank/brand-assets/main/logos/clavius/logo-white.svg) |
+| **Isotipo Black** | Isotipo lunar concéntrico en negro obsidiana | SVG | [`logos/clavius/logo-black.svg`](https://raw.githubusercontent.com/deepbank/brand-assets/main/logos/clavius/logo-black.svg) |
+| **Banner LinkedIn** | Banner institucional oficial (1584×396 px) | PNG | [`banners/linkedin-banner.png`](https://raw.githubusercontent.com/deepbank/brand-assets/main/banners/linkedin-banner.png) |
+
+---
+
+## 🚀 Integración en Código
+
+### En Next.js / React
+```tsx
+import Image from "next/image";
+
+// Isotipo Deepbank para fondo oscuro
+export function DeepbankLogo() {
+  return (
+    <img
+      src="https://raw.githubusercontent.com/deepbank/brand-assets/main/logos/deepbank/deepbank-logo-dark.svg"
+      alt="Deepbank"
+      className="h-8 w-8 object-contain"
+    />
+  );
+}
+
+// Lockup horizontal con tipografía Google Sans
+export function DeepbankHorizontalLogo() {
+  return (
+    <img
+      src="https://raw.githubusercontent.com/deepbank/brand-assets/main/logos/deepbank/deepbank-horizontal-dark.svg"
+      alt="Deepbank"
+      className="h-8 w-auto"
+    />
+  );
+}
+```
+
+### En HTML / Markdown
+```html
+<img src="https://cdn.jsdelivr.net/gh/deepbank/brand-assets@main/logos/deepbank/deepbank-logo-dark.svg" alt="Deepbank Logo" width="32" height="32" />
+```
+
+---
+
+## 🎨 Paleta de Colores de Deepbank
 
 | Color | Hex | Uso |
 | :--- | :--- | :--- |
-| **Obsidiana** | `#000000` / `#09090b` | Fondos principales, seriedad institucional |
-| **Blanco Puro** | `#FFFFFF` | Logotipos principales, titulares de alto contraste |
-| **Zinc Claro** | `#D4D4D8` / `#A1A1AA` | Subtítulos y elementos secundarios |
-| **Esmeralda Liquidez** | `#10B981` | Acentos de validación, métricas y liquidez |
+| **Obsidiana** | `#000000` | Fondos principales (Pure Dark Estricto) |
+| **Blanco Puro** | `#FFFFFF` | Logotipos, titulares y botones primarios |
+| **Esmeralda Liquidez** | `#10B981` | Métricas de liquidez, estados aprobados |
+| **Zinc / Neutro** | `#737373` / `#A3A3A3` | Subtítulos y metadatos secundarios |
